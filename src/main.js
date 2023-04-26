@@ -42,6 +42,7 @@ bot.on(message('voice'), async(ctx) => {
 bot.on(message('text'), async(ctx) => {
     ctx.session = ctx.session || INITIAL_SESSION;
 
+
     try {
         ctx.session.messages.push({ role: openai.roles.USER, content: ctx.message.text })
         await new Promise(resolve => setTimeout(resolve, 2000)) // задержка
