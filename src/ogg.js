@@ -15,7 +15,6 @@ class OggConverter {
         ffmpeg.setFfmpegPath(installer.path)
     }
 
-
     toMp3(input, output) {
         try {
             const outputPath = resolve(dirname(input), `${output}.mp3`)

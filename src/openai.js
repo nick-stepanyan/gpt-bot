@@ -9,6 +9,7 @@ class OpenAI {
         SYSTEM: 'system'
     }
 
+
     constructor(apiKey) {
         const configuration = new Configuration({
             apiKey,
