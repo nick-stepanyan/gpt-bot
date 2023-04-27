@@ -12,7 +12,7 @@ const INITIAL_SESSION = {
 const ALLOWED_USERS = ['530228812', '976279493', '5582758805', '658917063', '1615746145'];
 
 const userName = {
-    '530228812': 'Luna ',
+    '530228812': 'Luna',
     '5582758805': 'Father',
     '658917063': 'Litle Big',
     '1615746145': 'Nina',
